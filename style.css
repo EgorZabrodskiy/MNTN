@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    font-family: 'Gilroy',sans-serif;
+    scroll-behavior: smooth;
+}
+
+.first {
+    display: flex;
+    padding: 60px 20px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-family: Gilroy,sans-serif;
+    font-weight: bold;
+}
+.zagolovok {
+    font-size: 32px;
+    font-family: 'Chronicle Display', sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+
+.ul_menu {
+    display: flex;
+    font-family: 'Gilroy',sans-serif;
+}
+
+.ul_menu li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.main {
+    display: block;
+    margin-top: -160px;
+    width: 100%;
+    height: 100px;
+}
+.second {
+    background-image: url(https://live.verstaem.online/mntn/img/hero-bg.avif);
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1440px;
+    padding-top: 260px;
+}
+.bg_1 {
+  position: absolute;
+  background-image: url(https://live.verstaem.online/mntn/img/hero-bg-1.avif);  
+  width: 100%;
+  height: 1440px;
+  background-repeat: no-repeat;
+  z-index: 2;
+  margin-top: 200px;
+}
+
+.bg_2 {
+    position: absolute;
+    margin-top: 490px;
+    z-index: 3;
+    background-image: url(https://live.verstaem.online/mntn/img/hero-bg-2.avif);
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 1400px;
+    width: 100%;
+}
+
+.second_main {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.second_content {
+    position: relative;
+    padding-bottom: 600px;
+    z-index: 10;
+    margin: 0 auto;
+
+}
+
+.second_title {
+    position: relative;
+    padding-left: 15%;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    text-transform: uppercase; 
+    color: #fbd784;
+}
+
+.second_title p {
+    padding-left: 130px;
+}
+
+.second_title_line {
+    position: relative; 
+    top: 14px;
+    left: 0;
+    width: 72px;
+    height: 2px;
+    background-color: #fbd784;
+}
+.second_content h1 {
+    display: block;
+    font-size: 90px;
+    padding-left: 15%;
+    color: white;
+    width: 70%;
+    font-weight: 550;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.second_content a {
+    display: block;
+    margin-left: 15%;
+    width: 150px;
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+}
+
+.second_content i {
+    position: relative;
+    font-size: larger;
+    top: 3px;
+    left: 5px;
+}
+
+.second_follow {
+    position: absolute;
+    color: white;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 800;
+    transform: rotate(90deg);
+    top: 120px;
+    left: 35px;
+}
+
+.second_icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.second_icons i {
+    position: absolute;
+    top: 200px;
+    left: 65px;
+}
+
+.second_icons .fa-twitter {
+    margin-top: 40px;
+}
+
+.main_content {
+    background-color: #0B1D26;
+    padding-bottom: 200px;
+    margin-bottom: -2px;
+}
+    
+.main_content_01 {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+}
+
+.main_content_01_text {
+    width: 70%;
+    margin-top: -200px;
+}
+
+.main_title {
+    position: relative;
+    padding-left: 15%;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    text-transform: uppercase; 
+    color: #fbd784
+}
+
+.main_title_line {
+    position: relative; 
+    top: 12px;
+    left: 0;
+    width: 72px;
+    height: 2px;
+    background-color: #fbd784;
+}
+
+.main_title p {
+    padding-left: 130px;
+}
+
+.main_content_01 h1 {
+    display: block;
+    font-size: 60px;
+    padding-left: 15%;
+    color: white;
+    width: 70%;
+    font-weight: 550;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.main_content_01_text span {
+    display: block;
+    margin-left: 15%;
+    margin-top: 20px;
+    color: white;
+    font-weight: 600;
+    line-height: 40px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.main_content_01_img {
+    background-image: url(https://live.verstaem.online/mntn/img/content-1.avif);
+    width: 500px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    margin-top: -350px;
+    margin-right: 40px;
+}
+
+.main_content_01_text a {
+    display: block;
+    margin-left: 15%;
+    width: 150px;
+    margin-top: 30px;
+    color: #fbd784;
+    text-decoration: none;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+}
+
+.main_content_01_text i {
+    margin-left: 7px;
+}
+
+.number {
+    position: absolute;
+    bottom: -100px;
+    left: 50px;
+    font-size: 220px;
+    color: white;
+    opacity: 0.15;
+}
+
+
+.main_content_02 {
+    display: flex;
+    margin-top: 700px;
+}
+
+.main_content_02_img {
+    width: 600px;
+    height: 500px;
+    margin-left: 10%;
+    position: relative;
+    top: -300px;
+    object-fit: cover;
+}
+
+.main_content_02_text {
+    margin-top: -300px;
+}
+.main_content_02 h1 {
+    display: block;
+    font-size: 60px;
+    padding-left: 15%;
+    color: white;
+    width: 70%;
+    font-weight: 550;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.main_content_02_text span {
+    display: block;
+    margin-left: 15%;
+    margin-top: 20px;
+    color: white;
+    font-weight: 600;
+    line-height: 40px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.main_content_02_text a {
+    display: block;
+    margin-left: 15%;
+    width: 150px;
+    margin-top: 30px;
+    color: #fbd784;
+    text-decoration: none;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+}
+
+.main_content_03 {
+    display: flex;
+    margin-top: 700px;
+}
+
+.main_content_01_text h1 {
+    display: block;
+    font-size: 60px;
+    padding-left: 15%;
+    color: white;
+    width: 70%;
+    font-weight: 550;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.main_content_03_img {
+    background-image: url(https://live.verstaem.online/mntn/img/content-3.avif);
+    width: 500px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    margin-top: -350px;
+    margin-right: 40px;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 100px;
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.footer_text {
+    width: 60%;
+}
+
+.footer_content .copyright {
+    margin-top: 250px;
+    font-size: 20px;
+    color: grey;
+}
+
+.footer_text .info {
+    width: 40%;
+    line-height: 30px;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ul_content {
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.footer_content a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media all and (max-width: 1050px) {
+    .bg_2 {
+        background-position: -325px 0px;
+    }
+
+    .second_content h1 {
+        display: block;
+        font-size: 70px;
+        padding-left: 15%;
+        color: white;
+        width: 70%;
+        font-weight: 550;
+        font-family: "Lora", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .main_content_02 .main_content_01_img {
+        background-image: url(https://live.verstaem.online/mntn/img/content-2.avif);
+        width: 700px;
+        height: 700px;
+        background-repeat: no-repeat;
+        background-position: -500px 0;
+        margin-left: 10%;
+        max-width: 100%;
+    }
+
+    .main_content_02_img img {
+        width: 400px;
+        height: 500px;
+        margin-left: 10%;
+        position: relative;
+        top: 0;
+    }
+}
+
+@media all and (max-width: 860px) {
+    .main_content_01 {
+        position: relative;
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+    }
+    .main_content_01 h1 {
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main_content_01_text span {
+        display: block;
+        margin-left: 15%;
+        margin-top: 20px;
+        color: white;
+        font-weight: 600;
+        line-height: 40px;
+        margin-right: 50px;
+        font-size: 18px;
+    }
+    
+    .main_content_01_img {
+        background-image: url(https://live.verstaem.online/mntn/img/content-1.avif);
+        width: 500px;
+        height: 700px;
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 100%;
+        margin: 20px auto;
+    }
+
+    .main_content_02 {
+        margin-top: 500px;
+        flex-direction: column-reverse;
+    }
+
+    .main_content_01_text span {
+        display: block;
+        margin-left: 15%;
+        margin-top: 20px;
+        color: white;
+        font-weight: 600;
+        line-height: 40px;
+        margin-right: 0;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .main_content_02 h1 {
+        font-size: 40px;
+    }
+
+    .main_content_02_img {
+        top: 20px; 
+        margin: 0 auto;
+    }
+
+    .main_content_03 {
+        display: flex;
+        margin-top: 500px;
+        flex-direction: column;
+    }
+
+    .main_content_03_img {
+        margin: 20px auto;
+    
+    }
+
+    .main_content_03 h1 {
+        font-size: 40px;
+        width: 100%;
+    }
+}
